@@ -1,0 +1,8 @@
+.sn-spaceship-list{
+    width: 18rem;
+    height: 9.5rem;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}

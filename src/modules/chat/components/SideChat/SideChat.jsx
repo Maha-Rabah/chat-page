@@ -1,8 +1,15 @@
-import React from 'react'
+import FooterSidebarChat from "./FooterSidebarChat/FooterSidebarChat"
+import MemberList from "./MemberList/MemberList"
+import ChatList from "./ChatList/ChatList"
+import './SideChat.css'
 
 const SideChat = () => {
   return (
-    <div>SideChat</div>
+    <div className="sn-side-chat">
+      <MemberList/>
+      <FooterSidebarChat/>
+      {/* <ChatList/> */}
+    </div>
   )
 }
 

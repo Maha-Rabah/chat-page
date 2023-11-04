@@ -1,0 +1,41 @@
+.sn-spaceship-item{
+    display: flex;
+width: 18rem;
+padding: 0rem 0.75rem;
+align-items: center;
+gap: 1rem;
+}
+.sn-spaceship-line{
+    width: 1.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+}
+.sn-spaceship-img{
+
+display: flex;
+width: 2rem;
+height: 2rem;
+padding: 0rem 0rem 1.58331rem 1.58331rem;
+justify-content: flex-end;
+align-items: center;
+flex-shrink: 0;
+}
+.sn-name-space-item{
+    color: var(--noble-black-300, #9B9C9E);
+text-align: center;
+
+/* Body/M/SemiBold */
+font-family: Plus Jakarta Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.25rem; /* 142.857% */
+letter-spacing: 0.00938rem;
+}
+.sn-spaceship-list{
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+}

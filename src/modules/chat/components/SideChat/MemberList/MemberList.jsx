@@ -9,13 +9,22 @@ import Marcus from'../../../assets/Markus.png'
 import Mia from '../../../assets/Mia.png'
 import Olivia from '../../../assets/Olivia.png'
 import './MemberList.css'
+<<<<<<< HEAD
 
 const MemberList = () => {
+=======
+import {userOnlineInfo} from "../../../data/users"
+import {userOfflineInfo} from "../../../data/users"
+
+const MemberList = () => {
+
+>>>>>>> master
   return (
     <div>
       <Heading
         TypeList="Currently Online"
         NumberUser="4" />
+<<<<<<< HEAD
       <Members
         img={Adam}
         name="ADAM GREEN"
@@ -40,11 +49,16 @@ const MemberList = () => {
         name="Lily Patel 💅🏻"
         descreption5="Do not disturb"
       />
+=======
+        
+      <Members userInfo={userOnlineInfo}/>
+>>>>>>> master
 
       <Heading
         TypeList="Offline"
         NumberUser="12" />
 
+<<<<<<< HEAD
 
 <div className="sn-member-offline">
       <Members
@@ -110,6 +124,10 @@ const MemberList = () => {
         descreption1="Last visit: 14 hr ago"
       />
      
+=======
+<div className="sn-member-offline">
+      <Members userInfo={userOfflineInfo}/>
+>>>>>>> master
       </div>
     </div>
   )

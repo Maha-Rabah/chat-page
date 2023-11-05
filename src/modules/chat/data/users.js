@@ -1,114 +1,108 @@
 import Adam from '../assets/Adam.png'
+import David from '../assets/David.png'
+import Harper from '../assets/Harper.png'
+import Lily from '../assets/Lily.png'
+import Lucas from '../assets/Lucas.png'
+import Marcus from'../assets/Markus.png'
+import Mia from '../assets/Mia.png'
+import Olivia from '../assets/Olivia.png'
 
-export const userOnlineInfo=[
+export const userOnlineInfo = [
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Adam },
+        name: "ADAM GREEN",
+        descreption1: "Exploring",
+        descreption2: "Library"
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { David },
+        name: "David Singh 👹",
+        descreption1: "Exploring",
+        descreption2: "Library"
     },
+
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Harper },
+        name: "Harper Singh",
+        descreption3: "Away",
+        descreption4: "for 20 minutes"
+
     },
+
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Lily },
+        name: "Lily Patel 💅🏻",
+        descreption5: "Do not disturb",
     },
+
+
 ]
-export const userOfflineInfo=[
+export const userOfflineInfo = [
+
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Lucas },
+        name:"Lucas Ortiz",
+        descreption1: "Last visit: 14 hr ago",
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Marcus },
+        name: "Marcus Chen",
+        descreption1: "Last visit: 14 hr ago"
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Mia },
+        name: "Mia Park",
+        descreption1: "Last visit: 17 hr ago"
+
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Olivia },
+        name: "Olivia Sharma",
+        descreption1: "Last visit: 3 days ago"
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Lily },
+        name: "Sophia Zhang",
+        descreption1: "Last visit: 3 days ago"
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Lucas },
+        name: "Lucas Ortiz",
+        descreption1: "Last visit: 14 hr ago",
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Marcus },
+        name: "Marcus Chen",
+        descreption1: "Last visit: 14 hr ago"
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Lily },
+        name: "Olivia Sharma",
+        descreption1: "Last visit: 3 days ago"
+    },
+
+    {
+        img: { Lily },
+        name: "Olivia Sharma",
+        descreption1: "Last visit: 3 days ago"
+    },
+    
+    {
+        img: { Mia },
+        name: "Mia Park",
+        descreption1: "Last visit: 17 hr ago"
+
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
+        img: { Olivia },
+        name: "Olivia Sharma",
+        descreption1: "Last visit: 3 days ago"
     },
     {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
-    },
-    {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
-    },
-    {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
-    },
-    {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
-    },
-    {
-        img:{Adam},
-        name:"ADAM GREEN",
-        descreption1:"Exploring",
-        descreption2:"Library"
-    },
+        img: { Marcus },
+        name: "Marcus Chen",
+        descreption1: "Last visit: 14 hr ago"
+    }
+
+
 ]

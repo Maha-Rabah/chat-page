@@ -1,13 +1,14 @@
 .sn-spaceship-item{
     display: flex;
 width: 18rem;
+height: 2rem;
 padding: 0rem 0.75rem;
 align-items: center;
-gap: 1rem;
+/* gap: 1rem; */
 }
 .sn-spaceship-line{
     width: 1.5rem;
-height: 1.5rem;
+height: 3rem;
 flex-shrink: 0;
 }
 .sn-spaceship-img{
@@ -18,7 +19,7 @@ height: 2rem;
 padding: 0rem 0rem 1.58331rem 1.58331rem;
 justify-content: flex-end;
 align-items: center;
-flex-shrink: 0;
+
 }
 .sn-name-space-item{
     color: var(--noble-black-300, #9B9C9E);

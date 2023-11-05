@@ -1,7 +1,7 @@
 import './Members.css'
 const Members = ({userInfo}) => {
   return (
-    <div className="">
+    <div >
       {userInfo.map ((item , index)=> (
         <div  key={index} className="sn-member">
             <img src={item.img} alt=""/>

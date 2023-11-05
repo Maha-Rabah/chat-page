@@ -1,6 +1,6 @@
 import FooterSidebarChat from "./FooterSidebarChat/FooterSidebarChat"
 import MemberList from "./MemberList/MemberList"
-import ChatList from "./ChatList/ChatList"
+// import ChatList from "./ChatList/ChatList"
 import './SideChat.css'
 
 const SideChat = () => {

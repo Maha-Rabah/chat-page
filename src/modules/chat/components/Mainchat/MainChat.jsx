@@ -1,7 +1,9 @@
 
 const MainChat = () => {
   return (
-    <div>MainChat</div>
+    <div>
+      
+    </div>
   )
 }
 

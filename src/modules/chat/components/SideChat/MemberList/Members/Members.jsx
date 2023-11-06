@@ -17,7 +17,7 @@ const Members = ({img,name,descreption1,descreption2,descreption3,descreption4,d
 =======
 const Members = ({userInfo}) => {
   return (
-    <div className="">
+    <div >
       {userInfo.map ((item , index)=> (
         <div  key={index} className="sn-member">
             <img src={item.img} alt=""/>

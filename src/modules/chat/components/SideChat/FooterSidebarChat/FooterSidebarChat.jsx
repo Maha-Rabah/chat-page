@@ -1,30 +1,23 @@
+import { useState } from 'react'
+import comment from '../../../assets/chat-bubble.svg'
+import users from '../../../assets/users.svg'
 import './FooterSidebarChat.css'
-<<<<<<< HEAD
-import  comment from '../../../assets/chat-bubble.svg'
-import  users  from '../../../assets/users.svg'
+import ChatList from '../ChatList/ChatList'
 const FooterSidebarChat = () => {
+  // const [show, setShow] = useState(false);
+  // const buttonClick = () => setShow(true);
+  // onClick={buttonClick}
+
   return (
-    <div className="sn-footer-sidebar">
-      <button className="sn-btn-chat"><img src={comment}/> Chat</button>
+    <div>
+      <div className="sn-footer-sidebar">
 
-      <button className="sn-btn-member"> Member <img src={users}/> </button>
-
+        <button className="sn-btn-chat" ><img src={comment} alt="" /> Chat</button>
+        {/* {show && <ChatList />} */}
+        <button className="sn-btn-member" > Member <img src={users} alt="" /> </button>
+      </div>
     </div>
   )
-=======
-// import  comment from '../../../assets/chat-bubble.svg'
-// import  users  from '../../../assets/users.svg'
-const FooterSidebarChat = () => {
-  return 
-  // (
-  //   <div className="sn-footer-sidebar">
-  //     <button className="sn-btn-chat"><img src={comment}/> Chat</button>
-
-  //     <button className="sn-btn-member"> Member <img src={users}/> </button>
-
-  //   </div>
-  // )
->>>>>>> master
 }
 
 export default FooterSidebarChat

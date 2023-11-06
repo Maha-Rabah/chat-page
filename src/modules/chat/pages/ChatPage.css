@@ -1,0 +1,11 @@
+.ma-container-chatpage{
+display: flex;
+padding: 1.25rem;
+align-items: center;
+gap: 2rem;
+flex: 1 0 0;
+align-self: stretch;
+width: 68.25rem;
+height: auto;
+background-color:  #131619;
+}

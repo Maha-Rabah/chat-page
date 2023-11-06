@@ -9,13 +9,13 @@ import Olivia from '../assets/Olivia.png'
 
 export const userOnlineInfo = [
     {
-        img: { Adam },
+        img:  Adam ,
         name: "ADAM GREEN",
         descreption1: "Exploring",
         descreption2: "Library"
     },
     {
-        img: { David },
+        img:  David ,
         name: "David Singh 👹",
         descreption1: "Exploring",
         descreption2: "Library"

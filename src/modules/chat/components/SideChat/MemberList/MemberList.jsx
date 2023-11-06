@@ -1,13 +1,5 @@
 import Heading from "./Heading/Heading"
 import Members from "./Members/Members"
-// import Adam from '../../../assets/Adam.png'
-// import David from '../../../assets/David.png'
-// import Harper from '../../../assets/Harper.png'
-// import Lily from '../../../assets/Lily.png'
-// import Lucas from '../../../assets/Lucas.png'
-// import Marcus from'../../../assets/Markus.png'
-// import Mia from '../../../assets/Mia.png'
-// import Olivia from '../../../assets/Olivia.png'
 import './MemberList.css'
 import {userOnlineInfo} from "../../../data/users"
 import {userOfflineInfo} from "../../../data/users"

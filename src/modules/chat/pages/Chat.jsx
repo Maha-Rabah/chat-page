@@ -7,6 +7,7 @@ const Chat = () => {
     <>
         <MainChat/>
         <SideChat/>
+       
     </>
   )
 }

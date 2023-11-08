@@ -22,7 +22,7 @@ export const userOnlineInfo = [
     },
 
     {
-        img: { Harper },
+        img:  Harper ,
         name: "Harper Singh",
         descreption3: "Away",
         descreption4: "for 20 minutes"
@@ -30,7 +30,7 @@ export const userOnlineInfo = [
     },
 
     {
-        img: { Lily },
+        img:  Lily ,
         name: "Lily Patel 💅🏻",
         descreption5: "Do not disturb",
     },
@@ -40,66 +40,66 @@ export const userOnlineInfo = [
 export const userOfflineInfo = [
 
     {
-        img: { Lucas },
+        img:  Lucas ,
         name:"Lucas Ortiz",
         descreption1: "Last visit: 14 hr ago",
     },
     {
-        img: { Marcus },
+        img:  Marcus ,
         name: "Marcus Chen",
         descreption1: "Last visit: 14 hr ago"
     },
     {
-        img: { Mia },
+        img:  Mia ,
         name: "Mia Park",
         descreption1: "Last visit: 17 hr ago"
 
     },
     {
-        img: { Olivia },
+        img: Olivia,
         name: "Olivia Sharma",
         descreption1: "Last visit: 3 days ago"
     },
     {
-        img: { Lily },
+        img: Lily,
         name: "Sophia Zhang",
         descreption1: "Last visit: 3 days ago"
     },
     {
-        img: { Lucas },
+        img:Lucas ,
         name: "Lucas Ortiz",
         descreption1: "Last visit: 14 hr ago",
     },
     {
-        img: { Marcus },
+        img:  Marcus,
         name: "Marcus Chen",
         descreption1: "Last visit: 14 hr ago"
     },
     {
-        img: { Lily },
+        img: Lily,
         name: "Olivia Sharma",
         descreption1: "Last visit: 3 days ago"
     },
 
     {
-        img: { Lily },
+        img: Lily,
         name: "Olivia Sharma",
         descreption1: "Last visit: 3 days ago"
     },
     
     {
-        img: { Mia },
+        img: Mia,
         name: "Mia Park",
         descreption1: "Last visit: 17 hr ago"
 
     },
     {
-        img: { Olivia },
+        img: Olivia ,
         name: "Olivia Sharma",
         descreption1: "Last visit: 3 days ago"
     },
     {
-        img: { Marcus },
+        img: Marcus,
         name: "Marcus Chen",
         descreption1: "Last visit: 14 hr ago"
     }

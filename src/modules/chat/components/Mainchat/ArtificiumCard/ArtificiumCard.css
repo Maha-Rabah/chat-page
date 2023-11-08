@@ -1,12 +1,12 @@
 .Card{
     display: flex;
-    width: 44.25rem;
+    width: 100%;
 padding: 1rem;
-margin: 1.25rem;
+margin: 1.25rem 0rem;
 align-items: flex-start;
 gap: 1.5rem;
 align-self: stretch;
-background-color: black;
+background-color: #131619;
 border-radius: 1rem;
 border: 1px solid var(--noble-black-600, #1A1D21);
 }

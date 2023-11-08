@@ -1,6 +1,7 @@
 .ma-MainHeading {
 display: flex;
-width: 44.25rem;
+width: 75%;
+
 padding: 0.5rem 0rem;
 justify-content: space-between;
 align-items: center;

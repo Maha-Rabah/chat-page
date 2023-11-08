@@ -1,6 +1,4 @@
-import './ArtificiumCard.css'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import './ArtificiumCard.css' 
 import img3 from './../../../assets/Artificium.png'
 import img4 from './../../../assets/Drake1.png'
 import img5 from './../../../assets/Drake2.png'

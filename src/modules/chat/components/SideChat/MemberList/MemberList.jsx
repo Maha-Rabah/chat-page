@@ -3,6 +3,7 @@ import Members from "./Members/Members"
 import './MemberList.css'
 import {userOnlineInfo} from "../../../data/users"
 import {userOfflineInfo} from "../../../data/users"
+import FooterSidebarChat from "../FooterSidebarChat/FooterSidebarChat"
 
 const MemberList = () => {
 
@@ -11,9 +12,7 @@ const MemberList = () => {
       <Heading
         TypeList="Currently Online"
         NumberUser="4" />
-        
       <Members userInfo={userOnlineInfo}/>
-
       <Heading
         TypeList="Offline"
         NumberUser="12" />
@@ -21,6 +20,7 @@ const MemberList = () => {
 <div className="sn-member-offline">
       <Members userInfo={userOfflineInfo}/>
       </div>
+      <FooterSidebarChat/>
     </div>
   )
 }

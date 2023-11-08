@@ -7,8 +7,9 @@ const SideChat = () => {
   return (
     <div className="sn-side-container">
     <div className="sn-side-chat">
-      <MemberList/>
-      {/* <ChatList/> */}
+      {/* <MemberList/> */}
+       <ChatList/> 
+       <FooterSidebarChat/>
     </div>
     </div>
   )

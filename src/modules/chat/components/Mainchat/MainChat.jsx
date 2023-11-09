@@ -11,7 +11,7 @@ const MainChat = () => {
   return (
     <div className='ma-container-mainchat'>
         <MainHeading/>
-
+        
         <div className='ma-chat-container'>
             <CardChat ChatInfo={LilyInfo}/>
 

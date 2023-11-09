@@ -4,8 +4,11 @@ const ArtificiumCard = ({ArtificiumCardInfo}) => {
   return (
     <div>
        {ArtificiumCardInfo.map((item,index) => (
-    <div className='Card'>
-       <div><img className='LI-cardavatar' src={item.img3} alt='not found'/></div>
+    <div key={index} className='Card'>
+
+       <div>
+          <img className='LI-cardavatar' src={item.img3} alt='not found'/>
+      </div>
        <div className='LI-cardcontent'>
           <div className='LI-cardname'>
 

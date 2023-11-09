@@ -9,6 +9,10 @@
     border-radius: 1rem;
 }
 
+.LI-Massage:hover{
+    background-color:var(--third-background-color);
+}
+
 .LI-Massage.active{
     border: 1px solid var(--sec-background-color);
 }
@@ -22,7 +26,14 @@
     align-items: center;
     border-radius: 1.25rem;
 }
-
+/* .LI-Massage .LI-content{
+display: flex;
+padding: 0.5rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+flex: 1 0 0;
+} */
 .LI-Massage .LI-LEEN{
     display: flex;
     gap: 0.7rem;
@@ -30,8 +41,6 @@
 }
 
 .LI-Massage .LI-name{
-    width: 100%;
-    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,8 +73,8 @@
 
 .LI-Massage .LI-name .LI-icon{
     display: flex;
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     padding: 0.5rem 0.75rem;
     justify-content: center;
     align-items: center;
@@ -93,6 +102,7 @@
     display: flex;
     align-items: flex-start;
     gap: 1rem;
+    margin: 1rem;
 }
 
 .LI-Massage .LI-hidden button{
@@ -104,6 +114,7 @@
     gap: 0.375rem;
     border-radius: 0.5rem;
     background: var(--sec-background-color);
+    color: var(--p-text-color);
 }
 
 .LI-Massage .LI-hidden p{

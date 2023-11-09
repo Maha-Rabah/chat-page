@@ -3,13 +3,6 @@ import { useState } from 'react';
 
 const CardChat = ({ChatInfo}) => {
 
-  let red = '#131619';
-  const [bgColor, setBgColor] = useState(red);
-  const changeColor =()=>{
-      let black = '#000000';
-      setBgColor(black);
-    }
-
   const [isShown, setIsShown] = useState(false);
 
   const handleClick = event => {
@@ -22,9 +15,8 @@ return (
   {ChatInfo?.map((item , index)=> (
     <div key={index} className={(item.active)? "LI-Massage active":"LI-Massage"}
          onClick={() => {
-          changeColor();
           handleClick();
-        }} style={{background: bgColor}} 
+        }}
     >
     <div> 
       <img className='LI-avatar' src={item.img} alt='not found'/>

@@ -10,13 +10,13 @@ import img6 from './../assets/Drake3.png'
 export const LilyInfo = [
     {
         img:Lily, 
-        title:"Adam Green ",
-        action:"  5 min ago",
+        title:"Lily Patel 💅🏻",
+        action:" 27.04.2023 13:30",
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
                      viewBox="0 0 16 16" fill="none">
                    <path d="M11.6665 6.00002H11.9998C12.7362 6.00002 13.3332 6.59697 13.3332 7.33335V12C13.3332 12.7364 12.7362 13.3334 11.9998 13.3334H7.33317C6.59679 13.3334 5.99984 12.7364 5.99984 12V11.6667M3.99984 10H8.6665C9.40288 10 9.99984 9.40307 9.99984 8.66669V4.00002C9.99984 3.26364 9.40288 2.66669 8.6665 2.66669H3.99984C3.26346 2.66669 2.6665 3.26364 2.6665 4.00002V8.66669C2.6665 9.40307 3.26346 10 3.99984 10Z" stroke="#686B6E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>,
-        disc:"Hey guys, I was thinking about some character ideas for our show. What do you think we should focus on?",
+        disc:"Agreed. In the meantime, let's keep pushing forward with this episode. I think it's going to be a real crowd-pleaser.",
         active:true
     },
 ]
@@ -38,13 +38,13 @@ export const AdamInfo = [
 export const EmelyInfo = [
     {
         img:Emely, 
-        title:"Adam Green ",
-        action:"  5 min ago",
+        title:"Emily Liu ",
+        action:"  5 sec ago",
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
                      viewBox="0 0 16 16" fill="none">
                    <path d="M11.6665 6.00002H11.9998C12.7362 6.00002 13.3332 6.59697 13.3332 7.33335V12C13.3332 12.7364 12.7362 13.3334 11.9998 13.3334H7.33317C6.59679 13.3334 5.99984 12.7364 5.99984 12V11.6667M3.99984 10H8.6665C9.40288 10 9.99984 9.40307 9.99984 8.66669V4.00002C9.99984 3.26364 9.40288 2.66669 8.6665 2.66669H3.99984C3.26346 2.66669 2.6665 3.26364 2.6665 4.00002V8.66669C2.6665 9.40307 3.26346 10 3.99984 10Z" stroke="#686B6E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>,
-        disc:"Hey guys, I was thinking about some character ideas for our show. What do you think we should focus on?",
+        disc:"Well, we definitely need a strong leader character who can command the crew and make tough decisions. @Artificium, can you help?",
         active:true
     },
 ]
@@ -75,13 +75,13 @@ export const ArtificumInfo = [
 export const DavidInfo = [
     {
         img:David, 
-        title:"Adam Green ",
+        title:"David Singh 👹 ",
         action:"  5 min ago",
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
                      viewBox="0 0 16 16" fill="none">
                    <path d="M11.6665 6.00002H11.9998C12.7362 6.00002 13.3332 6.59697 13.3332 7.33335V12C13.3332 12.7364 12.7362 13.3334 11.9998 13.3334H7.33317C6.59679 13.3334 5.99984 12.7364 5.99984 12V11.6667M3.99984 10H8.6665C9.40288 10 9.99984 9.40307 9.99984 8.66669V4.00002C9.99984 3.26364 9.40288 2.66669 8.6665 2.66669H3.99984C3.26346 2.66669 2.6665 3.26364 2.6665 4.00002V8.66669C2.6665 9.40307 3.26346 10 3.99984 10Z" stroke="#686B6E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>,
-        disc:"Hey guys, I was thinking about some character ideas for our show. What do you think we should focus on?",
+        disc:"How about someone with a military background? They would have experience leading a team in high-pressure situations.",
         active:false
     },
 ]
@@ -90,12 +90,12 @@ export const AdamGreenInfo = [
     {
         img:Adam, 
         title:"Adam Green ",
-        action:"  5 min ago",
+        action:"  just now",
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
                      viewBox="0 0 16 16" fill="none">
                    <path d="M11.6665 6.00002H11.9998C12.7362 6.00002 13.3332 6.59697 13.3332 7.33335V12C13.3332 12.7364 12.7362 13.3334 11.9998 13.3334H7.33317C6.59679 13.3334 5.99984 12.7364 5.99984 12V11.6667M3.99984 10H8.6665C9.40288 10 9.99984 9.40307 9.99984 8.66669V4.00002C9.99984 3.26364 9.40288 2.66669 8.6665 2.66669H3.99984C3.26346 2.66669 2.6665 3.26364 2.6665 4.00002V8.66669C2.6665 9.40307 3.26346 10 3.99984 10Z" stroke="#686B6E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>,
-        disc:"Hey guys, I was thinking about some character ideas for our show. What do you think we should focus on?",
+        disc:"Good point, David. I was also thinking that maybe this leader character could have a personal stake in the mission, like they have a family member or loved one back on Earth that they're trying to protect. It could add some emotional depth to the character.",
         active:false
     },
 ]

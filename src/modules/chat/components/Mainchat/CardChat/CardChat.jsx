@@ -2,13 +2,13 @@ import './CardChat.css'
 import { useState } from 'react';
 
 const CardChat = ({ChatInfo}) => {
-
+  //////////////////the Replay button//////////////
   const [isShown, setIsShown] = useState(false);
-
   const handleClick = event => {
     // 👇️ toggle shown state
     setIsShown(current => !current);
-  };
+//////////////////////////////////////////////////
+};
 
 return (
 <div>
@@ -16,8 +16,9 @@ return (
     <div key={index} className={(item.active)? "LI-Massage active":"LI-Massage"}
          onClick={() => {
           handleClick();
-        }}
+    }}
     >
+        {/* ///////////// componnent content ////////////////////// */}
     <div> 
       <img className='LI-avatar' src={item.img} alt='not found'/>
     </div>
@@ -32,17 +33,17 @@ return (
         <div> 
           <p className='LI-disc'>{item.disc}</p>
         </div>
-     {isShown && (
-     <div>
-        <div className='LI-hidden'>
-             <button>Reply</button>
-             <p>🔥    💅🏻    🙄</p>
-         </div>
-      </div>
+        {isShown && (
+        <div>
+            <div className='LI-hidden'>
+                <button>Reply</button>
+                <p>🔥    💅🏻    🙄</p>
+            </div>
+        </div>
       )}
     </div> 
-    </div>
-    ))}
+  </div>
+  ))}
 </div>
   )
 }

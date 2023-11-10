@@ -4,7 +4,6 @@ import { useState } from "react"
 import './MemberList.css'
 import {userOnlineInfo} from "../../../data/users"
 import {userOfflineInfo} from "../../../data/users"
-import FooterSidebarChat from "../FooterSidebarChat/FooterSidebarChat"
 
 const MemberList = () => {
   ///////////////Heading information///////////////
@@ -21,8 +20,6 @@ const[secNumberUser] = useState("12");
       <div className="sn-member-offline">
       <Members userInfo={userOfflineInfo}/>
       </div>
-      
-      <FooterSidebarChat/>
     </div>
   )
 }

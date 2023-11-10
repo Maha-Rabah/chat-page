@@ -3,6 +3,13 @@ import padlouk from '../assets/padlock.svg'
 import chevrondown from '../assets/chevron-down.svg'
 import globe from '../assets/Globe-02.svg'
 
+////////////////////Router Path//////////////////////////////////
+export const ROUTES={
+    CHAT :'chat'
+}
+/////////////////////////////////////////////////////////////////
+
+////////////////////////////sidebar info///////////////////////////
 export const ChatListInfo=[
     {
         icon:chevronright,
@@ -25,6 +32,7 @@ export const ChatListInfo=[
         active:false
 },
 ]
+///////////////////////////////////////
 export const ChatListBottom=[
     {
         icon:globe,
@@ -42,3 +50,4 @@ export const ChatListBottom=[
         active:false
     },
 ]
+/////////////////////////////////////////////////////////////////////////

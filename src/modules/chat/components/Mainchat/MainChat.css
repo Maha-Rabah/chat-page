@@ -9,17 +9,7 @@
     height:100%;
     margin: auto;
 }
-.ma-container-mainchat .ma-thehead{
-    display: flex;
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-    /* gap: 1rem; */
-    /* flex: 1 0 0; */
-    /* align-self: stretch; */
-    width:40%;
-    height:100%;
-    margin: auto;
-}
+
 .ma-chat-container{
     display: flex;
     padding: 1.25rem 0rem;

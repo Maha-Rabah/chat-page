@@ -9,9 +9,9 @@ const ArtificiumCard = ({ArtificiumCardInfo}) => {
        <div>
           <img className='LI-cardavatar' src={item.img3} alt='not found'/>
       </div>
+
        <div className='LI-cardcontent'>
           <div className='LI-cardname'>
-
              <div className='LI-LEEN'>
                <p className='LI-cardtitle'>{item.thetitle}</p>
                <p className='LI-cardaction'>{item.time}</p>
